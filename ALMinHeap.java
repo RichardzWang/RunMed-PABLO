@@ -12,7 +12,7 @@
 
 import java.util.ArrayList;
 
-public class ALMaxHeap {
+public class ALMinHeap {
 
     //instance vars
     private ArrayList<Integer> _heap; //underlying container is array of Integers
@@ -20,7 +20,7 @@ public class ALMaxHeap {
     /*****************************************************
      * default constructor  ---  inits empty heap
      *****************************************************/
-    public ALMaxHeap() 
+    public ALMinHeap() 
     { 
 	_heap = new ArrayList<Integer>();
     }
@@ -149,7 +149,7 @@ public class ALMaxHeap {
     public static void main( String[] args ) {
 
 
-	ALMaxHeap pile = new ALMaxHeap();
+	ALMinHeap pile = new ALMinHeap();
 
 	  pile.add(2);
 	  System.out.println(pile);
