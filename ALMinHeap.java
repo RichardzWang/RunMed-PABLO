@@ -1,8 +1,8 @@
 /*
-  Jack Schluger
+  Team Pablo: Jack Schluger, Manish Saha, Richard Wang
   APCS1 pd05
-  HW43 -- Heap of Trouble
-  2016-05-23
+  HW46 -- Running M[edi]an
+  2016-05-25
 */
 
 /*****************************************************
